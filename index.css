@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#book-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  border: 2px solid black;
+}
+
+#date-time {
+  margin-left: auto;
+  width: fit-content;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border: 2px solid black;
+  padding: 3px 10px;
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.deleteButton {
+  margin-left: auto;
+}
+
+#book-list li {
+  display: flex;
+  padding: 3px 10px;
+}
+
+.footer {
+  border: 2px solid black;
+  padding: 3px 10px;
+  margin-top: 16px;
+}
+
+button {
+  font-family: inherit;
+  border: 2px solid black;
+}
+
+input {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+#book-form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+#add-book {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.contact-container {
+  max-width: 48%;
+  margin: 0 auto;
+}
+
+.active {
+  color: blue;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 98vh;
+  max-width: 48%;
+  margin: 0 auto;
+}
