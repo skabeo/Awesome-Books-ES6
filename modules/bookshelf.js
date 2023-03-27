@@ -23,7 +23,7 @@ export default class BookShelf {
       li.style.color = 'red';
       bookList.appendChild(li);
     }
-    
+
     for (let i = 0; i < this.books.length; i += 1) {
       const book = this.books[i];
       const li = document.createElement('li');

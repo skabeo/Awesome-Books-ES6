@@ -20,7 +20,7 @@ export default function initializePage() {
       }
       navLinks[i].style.color = 'blue';
     });
-  }  
+  }
 
   sections[0].style.display = 'block';
 }
