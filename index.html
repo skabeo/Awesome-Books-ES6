@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trial</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <nav>
+          <ul>
+            <li class="title">Awesome Books</li>
+            <div class="nav-links">
+              <li><a href="#book-addition" class="nav-link">List</a></li>
+              <span class="line"></span>
+              <li><a href="#library" class="nav-link">Add new</a></li>
+              <span class="line"></span>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+  
+        <p id="date-time"></p>
+  
+        <section id="book-addition">
+          <h1 class="title">All awesome books</h1>
+          <ul id="book-list"></ul>
+        </section>
+  
+        <section id="library">
+          <form id="book-form">
+            <h2 class="title">Add a new book</h2>
+            <input type="text" id="title" name="title" placeholder="Title" required><br>
+            <input type="text" id="author" name="author" placeholder="Author" required><br>
+            <button type="button" id="add-book">Add</button>
+          </form>
+        </section>
+        
+        <section id="contact">
+          <h2 class="title">Contact Information</h2>
+          <div class="contact-container">
+            <p>Do you have any questions or you just want to say 'Hello'? You can reach out to us!</p>
+            <ul>
+              <li>Our e-mail: mail@mil.com</li>
+              <li>Our phone number: 0043586534422</li>
+              <li>Our address: Streetname 22, 84503 City, Country</li>
+            </ul>
+          </div>
+          
+        </section>
+        
+      </main>
+      <p class="footer">Copyright</p>
+    </div>
+    
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
