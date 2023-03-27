@@ -16,6 +16,12 @@ export default class BookShelf {
   render() {
     const bookList = document.querySelector('#book-list');
     bookList.innerHTML = '';
+    if (this.books.length === 0) {
+      const li = document.createElement('li');
+      li.innerHTML = 'Add a Book';
+      li.style.color = 'red';
+      bookList.appendChild(li);
+    }
     for (let i = 0; i < this.books.length; i += 1) {
       const book = this.books[i];
       const li = document.createElement('li');
